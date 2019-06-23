@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="342dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Hi,How can i help you?"
+        android:textColor="#f7f7f7"
+        android:textSize="26dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal" />
+
+
+    <ImageView
+        android:id="@+id/btnSpeak"
+        android:layout_width="137dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/mic" />
+
+
+</RelativeLayout>
